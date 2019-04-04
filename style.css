@@ -1,0 +1,178 @@
+
+body{
+	background-color: #fefbd8;
+}
+
+h1{
+	padding-top: 2%;
+}
+
+header{
+	background-color: #80ced6;
+	width: 100%;																																																													
+}
+
+p{
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: justify;
+	text-indent: 40px;
+
+}
+
+ol{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+nav{
+	font-size: 20px;
+	width: 100%;																																																														
+}
+
+
+nav ul li a{
+	border-radius: 20px;
+	padding: 10px 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	color: #003566;
+}
+nav > ul{
+
+	margin-left:25%;
+	
+	
+}
+nav > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+nav li{
+	list-style-type: none;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	background-color: #003566;
+	color: white;
+	
+}
+
+h2{
+	
+	background-color: #80ced6;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+}
+aside{
+	margin-top: 10px;
+	margin-left: 10%;
+	width: 100%;
+	padding-bottom: 10%;
+	
+}
+
+section{
+	
+	margin-top: 10px;
+	margin: auto;
+	
+	width: 90%;
+	
+		
+	
+		
+	
+}
+
+
+article{
+
+	width: 100%;
+	
+	margin-bottom: 10px;
+	
+	
+	border-bottom: 3px solid #80ced6;
+	
+
+}
+
+footer{
+	background-color:#80ced6 ;
+	width: 100%;
+	margin-top: 20px;
+	
+	
+}
+
+aside{
+	margin-bottom: 30%;
+    	margin-top: 50%;
+}
+
+aside ul li a{
+	padding: 20px 30px;
+	color:#003566 ;
+}
+aside > ul{
+	margin: auto;
+	padding: 0px;
+}
+aside > ul::after{
+	content: "";
+	clear: both;
+}
+aside > ul > li{
+	
+	margin-bottom: 3%;
+	margin-top: 10%;
+}
+aside li{
+	list-style-type: none;
+}
+aside a{
+
+	font-size: 18px;
+	text-decoration: none;
+}
+aside ul li a:hover{
+	font-size: 25px;
+	color: #003566;
+}
+
+
+.floating-box {
+    float: left;
+    width: 300px;
+    background-color:#f2f2f2 ;
+    margin: 10px;
+    border-bottom: 3px solid #003566;
+    border-right: 3px solid #003566;  
+    border-radius: 20px;
+    
+}
+
+.floating-box2 {
+    float: left;
+    width: 76%;
+    background-color:#f2f2f2 ;
+    margin: 10px;
+    border-bottom: 3px solid #003566;
+    border-right: 3px solid #003566;  
+    border-radius: 20px;  
+}
+
+.after-box {
+    clear: left;
+    margin-top: 10%;
+}

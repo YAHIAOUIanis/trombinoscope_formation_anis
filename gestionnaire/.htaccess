@@ -1,0 +1,6 @@
+<FilesMatch "gestionnaire.php">
+	AuthUserFile "/homepages/34/d736268523/htdocs/gestionnaire/.htpasswd"
+	AuthName "Accès protégé"
+	AuthType Basic
+	Require valid-user
+</FilesMatch>
